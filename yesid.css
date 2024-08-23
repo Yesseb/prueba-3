@@ -1,0 +1,75 @@
+body {
+  font-family:Arial, Helvetica, sans-serif;
+  margin: 0%;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.card {
+  text-align: center;
+  border-radius: 10px;
+  background-color: #333;
+  border-radius: 10px;
+  padding: 20px;        
+}
+
+.card img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.card h2 {
+  margin: 0;
+  font-size: 24px;
+  color: white;
+}
+
+.card h3 {
+  margin: 5px 0;
+  font-size: 18px;
+  color: #dd2cb7;
+}
+
+.card p{
+  font-style: italic;
+  margin: 10px 0;
+  color: white;
+}
+
+.card a {
+  display: block;
+  background-image: linear-gradient(to bottom, #dd2cb7, #555);
+  color: white;
+  text-decoration: none;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  border: none;       
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card a:hover {
+  background-image: linear-gradient(to bottom, #41dd2c, #777);
+  box-shadow: 0 4px 8 px rgba(0, 0, 0, 0.253);
+}
+
+footer {
+padding: 2rem;
+margin-top: 10rem;
+text-align: center;
+font-size: 1rem;
+color: white;
+}
+
+.copyright img {
+  width: 2rem;
+  background-color: white;
+}
